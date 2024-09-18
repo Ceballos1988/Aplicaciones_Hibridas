@@ -1,0 +1,44 @@
+Model-View-Controller (MVC)
+
+El patrón de diseño Model-View-Controller (MVC) es un enfoque
+arquitectónico utilizado para separar la lógica de la aplicación en tres
+componentes interconectados. Esto ayuda a separar las preocupaciones,
+facilitando el desarrollo, mantenimiento y escalabilidad del software. En el
+contexto de una aplicación web utilizando Node.js y Express, cada
+componente del patrón MVC tiene un rol específico:
+
+ Model: Representa los datos y la lógica de negocio. Se encarga de la
+interacción con la base de datos y la validación de datos.
+
+ View: Presenta los datos al usuario. Se encarga de la interfaz de
+usuario y de la presentación de la información.
+
+ Controller: Gestiona la comunicación entre el modelo y la vista.
+Procesa las solicitudes del usuario, interactúa con el modelo y
+selecciona la vista adecuada para renderizar la respuesta.
+
+Node.js:
+
+Node.js es un entorno de ejecución de JavaScript en el servidor. 
+Normalmente, JavaScript solo se ejecutaba en los navegadores para crear interactividad 
+en las páginas web. Pero con Node.js, puedes usar JavaScript también en el lado del servidor, 
+es decir, para ejecutar código en un servidor y realizar tareas como gestionar bases de datos,
+manejar peticiones HTTP, etc.
+Es rápido y eficiente porque está basado en un motor de JavaScript 
+muy rápido (el motor V8 de Google Chrome), y permite manejar muchas conexiones simultáneamente.
+
+Express.js:
+
+Express.js es un framework para Node.js, es decir, una herramienta que te ayuda 
+a crear aplicaciones web más fácilmente. Express simplifica muchas tareas 
+que tendrías que hacer manualmente en Node.js, como:
+
+Manejar rutas: definir qué hacer cuando el servidor recibe una petición 
+(por ejemplo, mostrar una página o devolver datos en formato JSON).
+
+Gestionar middleware: funciones que se ejecutan entre recibir una petición 
+y enviar una respuesta, como autenticar usuarios o procesar datos.
+
+Crear APIs: puedes usar Express para construir APIs 
+(interfaz de programación de aplicaciones) que permiten a otras aplicaciones 
+interactuar con tu servidor.
